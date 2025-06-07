@@ -1,25 +1,22 @@
 {
-  "name": "whatsapp-ytbot",
+  "name": "boot-whatsapp-bot",
   "version": "1.0.0",
-  "description": "Bot do WhatsApp para baixar vídeos, músicas e exibir jogos.",
-  "main": "index.js",
+  "description": "Bot do WhatsApp para baixar vídeos, músicas e fornecer jogos online.",
+  "main": "bot.js",
   "scripts": {
-    "start": "node index.js",
-    "update": "npx npm-check-updates -u && npm install"
+    "start": "node bot.js"
   },
-  "keywords": ["whatsapp", "baileys", "bot", "youtube", "games", "downloads"],
-  "author": "Seu Nome",
+  "author": "ULTRALIRLLE",
   "license": "MIT",
   "dependencies": {
-    "@hapi/boom": "^10.0.1",
+    "@hapi/boom": "^10.0.0",
     "@whiskeysockets/baileys": "^6.5.0",
     "child_process": "^1.0.2",
     "fs": "^0.0.1-security",
-    "googleapis": "^133.0.0",
-    "pino": "^8.17.0",
-    "qrcode-terminal": "^0.12.0"
-  },
-  "devDependencies": {
-    "npm-check-updates": "^16.14.9"
+    "googleapis": "^105.0.0",
+    "path": "^0.12.7",
+    "pino": "^8.0.0",
+    "qrcode-terminal": "^0.12.0",
+    "http": "^0.0.1-security"
   }
 }
